@@ -39,8 +39,8 @@ h3{
     width: 60%;
     background: linear-gradient(
     to right bottom,
-     rgba(255,255,255,0.7),
-     rgba(255,255,255,0.3));
+     rgba(255,255,255,0.8),
+     rgba(255,255,255,0.4));
      border-radius: 2rem;
     z-index: 3;
     backdrop-filter: blur(2rem);
@@ -49,7 +49,7 @@ h3{
 .circle2{
     background: #fff;
     background: linear-gradient(
-        to right bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.3)
+        to right bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.4)
     );
     height: 10rem;
     width: 10rem;
@@ -68,8 +68,8 @@ h3{
 }
 .link{
     display: flex;
-    margin: 2rem 0rem;
-    padding: 1rem 5rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
     align-items: center;
     text-decoration: none;
     color: #000;
@@ -88,12 +88,25 @@ h3{
     text-align: center;
     background: linear-gradient(
     to right bottom,
-     rgba(255,255,255,0.7),
-     rgba(255,255,255,0.3));
+     rgba(255,255,255,0.8),
+     rgba(255,255,255,0.5));
      border-radius: 2rem;
 }
+.pro{
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 1rem;
+    color: #426696;
+    padding: .7rem;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+}
+
+/*RECENT GAMES*/
 .recentGames{
     flex:2;
+
 }
+
 
 
