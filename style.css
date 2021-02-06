@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #426696;
+    font-weight: bold;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+h2,
+p{
+    color: #426696;
+    font-weight: 500;
+    opacity: 0.9;
+}
+h3{
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.glass{
+    display: flex;
+    background: #fff;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(
+    to right bottom,
+     rgba(255,255,255,0.7),
+     rgba(255,255,255,0.3));
+     border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+}
+.circle1,
+.circle2{
+    background: #fff;
+    background: linear-gradient(
+        to right bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.3)
+    );
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    filter: blur(2px);
+}
+.circle1{
+    top: 5%;
+    left: 15%;
+}
+.circle2{
+    bottom: 5%;
+    right: 15%;
+}
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.link h3 {
+    padding: 0rem .5rem;
+}
+
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(
+    to right bottom,
+     rgba(255,255,255,0.7),
+     rgba(255,255,255,0.3));
+     border-radius: 2rem;
+}
+.recentGames{
+    flex:2;
+}
+
+
